@@ -1,11 +1,18 @@
 [project]
 name = "llmops"
 version = "0.1.0"
-description = "Add your description here"
+description = "Fullstack LLMOps RAG Chat System"
 readme = "README.md"
 requires-python = ">=3.12"
+
 dependencies = [
     "ipykernel>=7.2.0",
-    "langchain-openai>=1.1.7",
-    "langchain-text-splitters>=1.1.0",
+    "python-dotenv>=1.0.1",
+    "pypdf>=4.0.0",
+    "faiss-cpu>=1.7.4",
+    "sentence-transformers>=2.6.0", 
+    "langchain>=0.2.0",
+    "langchain-community>=0.2.0",
+    "langchain-ollama>=0.1.0",
+    "langchain-openai>=0.1.7"
 ]
